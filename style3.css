@@ -1,0 +1,197 @@
+body {
+  background: #e2eaef;
+  font-family: "Open Sans", sans-serif;
+}
+
+.carousel .item {
+  color: #747d89;
+  min-height: 325px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel .thumb-wrapper {
+  padding: 25px 15px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 3px black;
+}
+
+.carousel .item .img-box {
+  height: 120px;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel .item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 44px;
+  width: 40px;
+  background:green;
+  margin: auto 0;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin: -19px 0 0 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.carousel-control-prev i {
+  margin-left: -2px;
+}
+
+.carousel-control-next i {
+  margin-right: -4px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 20%;
+  border: none;
+}
+
+.carousel-indicators li {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.head {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.color {
+  background: #C59696;
+}
+
+.color1 {
+  background: black;
+}
+
+.color2 {
+  background: brown;
+}
+
+.prag {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.icon {
+  margin-top: 50px;
+  height: 50px;
+  width: 20%;
+}
+
+.head1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.head2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.5881px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.120em;
+  color: #3A3844;
+}
+
+.head3 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.5881px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #3A3844;
+}
+
+.card1 {
+  height: 300px;
+}
+
+.f1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.1429px;
+  letter-spacing: 0.015em;
+}
+
+.f2 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 0.015em;
+  line-height: 24px;
+}
+
+.f3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.button {
+  height: 90px;
+}
+
+.card1 {
+  height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: lightblue;
+}
+.img{
+   background-color: #F5F5F5;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.p{
+  font-size: 20px;
+}
